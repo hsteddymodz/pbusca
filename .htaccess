@@ -1,0 +1,43 @@
+<Files keepAliveCatta.js>
+  Order allow,deny
+  Deny from all
+  Allow from 127.0.0.1
+</Files>
+
+<Files secure.js>
+  Order allow,deny
+  Deny from all
+  Allow from 127.0.0.1
+</Files>
+
+<Files dropIps.js>
+  Order allow,deny
+  Deny from all
+  Allow from 127.0.0.1
+</Files>
+
+<Files node_modules/*>
+  Order allow,deny
+  Deny from all
+  Allow from 127.0.0.1
+</Files>
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^probusca.com.br$ [NC]
+RewriteRule ^(.*)$ https://probusca.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.probusca.com.br$ [NC]
+RewriteRule ^(.*)$ https://probusca.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.probusca.com$ [NC]
+RewriteRule ^(.*)$ https://probusca.com/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# rewrite rule for server-status to prevent 404 error
+RewriteCond %{REQUEST_URI} !=/server-status
+
+RewriteRule ^(.*)$ /index.php [NC,L,QSA]
+

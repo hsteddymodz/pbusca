@@ -1,0 +1,1820 @@
+/* CSS Document */
+
+.wrapper_header{
+	width: 760px;
+	padding-left: 0px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 30px;
+
+	_padding-left:0;
+	_padding-right: 0px;
+	_padding-top:5px;
+	_padding-bottom: 10px;
+	
+
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+
+	_margin-bottom:0;
+	_margin-left:0;
+	_margin-right:65px;
+	_margin-top:0;
+
+	border:0;			
+	text-align: left; /* "remedio" para o hack do IE */	
+	clear:both;
+}
+.wrapper{
+	width: 760px;
+	border:0;
+	padding-left: 0px;
+	padding-right: 50px;
+	padding-top: 8px;
+	padding-bottom: 30px;
+	
+	_padding-left:0;
+	_padding-right: 0px;
+	_padding-top:5px;
+	_padding-bottom: 10px;	
+	
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	
+	_margin-bottom:0;
+	_margin-left:0;
+	_margin-right:65px;
+	_margin-top:0;
+	
+	text-align:left; /* "remedio" para o hack do IE */	
+	clear:both;
+}
+#conteudo {
+	padding-left: 12px;
+	padding-right: 13px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+
+	_padding-left: 12px;
+	_padding-right: 13px;
+	_padding-top: 10px;
+	_padding-bottom: 10px;
+	background-color:#edeee2;
+	_width:100%;
+}
+.conteudo {
+	padding-left: 12px;
+	padding-right: 13px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+
+	_padding-left: 12px;
+	_padding-right: 13px;
+	_padding-top: 10px;
+	_padding-bottom: 10px;
+	background-color:#edeee2;
+	_width:100%;
+}
+
+.wrapper_associado{
+	width: 612px;
+	margin:0 auto;			
+	border:0;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	_padding-bottom: 10px;
+	text-align:left; /* "remedio" para o hack do IE */	
+	clear:both;
+	padding-top:15px;
+}
+
+table{
+	width:100%;
+}
+/*.header_table {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #204960;
+	_padding-left: 0px;
+	_padding-right: 0px;
+	_padding-top: 0px;
+	_padding-bottom: 0px;	
+	_width:100%;
+}*/
+
+.menu_header{
+        float:left;
+        position: absolute;
+        width:200px;
+        height:35px;
+        margin-left:0px;
+        margin-top:-15px;
+        z-index:1;
+}
+
+.menu_diario_bordo{
+        float:left;
+        position: absolute;
+        width: auto;
+        height: auto;
+        margin-left:15px;
+        margin-top:14px;
+        text-align:center;
+        margin-left: 55px;
+}
+
+.menu_show_hide_1{
+        float:left;
+        position: absolute;
+        width: auto;
+        height: auto;
+        margin-left:15px;
+        margin-top:14px;
+        text-align:center;
+}
+
+.menu_show_hide_2{
+        float:left;
+        position: absolute;
+        width: auto;
+        height: auto;
+        margin-left:45px;
+        margin-top:14px;
+}
+.menu_show_hide_3{
+        float:left;
+        position: absolute;
+        width: auto;
+        height: auto;
+        margin-left:100px;
+        margin-top:14px;
+}
+.menu_show_hide_4{
+        float:left;
+        position: absolute;
+        width: auto;
+        height: auto;
+        margin-left:131px;
+        margin-top:14px;
+}
+.menu_show_hide_5{
+        float:left;
+        position: absolute;
+        width:35px;
+        height:32px;
+        margin-left:160px;
+        margin-top:14px;
+}
+
+.tabela_operador{
+        position: absolute;
+}
+
+.header{
+        width:100%;
+        height:35px;
+        *height:30px;
+        background-color:#204960;
+        padding-top:12px;
+        *padding-bottom:5px;
+}
+
+
+.header_curva{
+	background-image: url(https://servicos.spc.org.br/spc/images/header_curva.png);
+	background-repeat:no-repeat;
+	width:100%;
+	height:120px;
+	margin-top:-19px;
+}
+.toolbar{
+	width: 735px;
+	height:100px;
+    background-color:#E6E7E8;
+	padding-top:10px;
+	margin-top:-1px;
+	vertical-align:middle;
+}
+
+.ico_toolbar{
+	float: left;
+	margin-top: 200x;
+	margin-left: 10px;
+	padding-bottom:10px;
+	vertical-align: middle;	
+}
+.ico_toolbar_esquerda{
+	float: left;
+	margin-top: 200x;
+	margin-left: 10px;
+	margin-right: 50px;
+	padding-bottom:10px;
+	vertical-align: middle;	
+}
+.ico_toolbar_dir{
+	width: 233px;
+	height:91px;
+	float: left;
+	margin-top: 200x;
+	margin-left: 249px;
+	padding-bottom:10px;
+	vertical-align: middle;
+	
+	*margin-left: 246px;                    
+}
+.ico_toolbar_dir2{
+	width: 233px;
+	height:91px;
+	float: left;
+	margin-top: 200x;
+	margin-left: 50px;
+	padding-bottom:10px;
+	vertical-align: middle;
+	margin-left: 53px
+	*margin-left: 53px;                    
+}
+.ico_toolbar2{
+	margin-top:-10px;
+	margin-left: 450px;
+	vertical-align: middle;
+	word-spacing:5px;
+}
+.header{
+	width:100%;
+	height:30px;
+	*height:40px;
+	background-color:#204960;
+	padding-top:12px;
+	*padding-bottom:5px;
+}
+.texto_titulo_header{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-left:20px;
+	vertical-align:top;
+	float:left;
+}
+.paginacao{
+	width: 20%;
+	height:35px;
+	background-color:#EAF1F3;
+	color:#333;
+	border-style:dotted;
+	border-color:#F2F6F7;
+	text-align:center;
+}
+a.txt_paginacao:link,visited{
+	font-weight:bold;
+	color:#204960;
+	text-decoration:none;
+}
+a.txt_paginacao:hover{
+	font-weight:bold;
+	color:#204960;
+	text-decoration: underline;
+}
+
+.btn_header{
+	margin-left:20px;
+	padding-top:20px;
+}
+
+.btn_footer{
+	width: 100%;
+	height:35px;
+	background-color:#204960;
+	padding-top:2px;
+	text-align:right;
+}
+
+.btn_footer_left {
+	width: 100%;
+	height:35px;
+	background-color:#204960;
+	padding-top:2px;
+	text-align:left;	
+}
+.txt_footer{
+	width: 100%;
+	height:35px;
+	background-color:#F2F6F7;
+	color:#333333;
+	padding-top:2px;
+	text-align:center;
+	border:1px solid #F2F6F7;
+}
+.ico_footer{
+	width: 7%;
+	height:35px;
+	background-color:#F2F6F7;
+	color:#FFFFFF;
+	padding-top:2px;
+	text-align:center;
+}
+.ico_footer2{
+	width: 5%;
+	height:10%;
+	background-color:#F2F6F7;
+	color:#FFFFFF;
+	padding-top:2px;
+	text-align:center;
+}
+
+.texto_map{
+	color:#333333;
+	margin-left:20px;
+	font-size:11px;
+}
+.map{
+	width: 100%;
+	height:15px;
+	padding-top:7px;
+	padding-bottom:5px;
+	background-color:#edeee2;
+	float:left;
+}
+.footer_texto_map{
+	font-style:italic;
+	color:#333333;
+	margin-left:20px;
+	font-size:11px;
+}
+.footer_map{
+	width: 100%;
+	height:15px;
+	padding-top:7px;
+	padding-bottom:5px;
+	background-color:#edeee2;
+	float:left;
+}
+.alert{
+	color: #FF0000;
+}
+
+
+.panel_sub{
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#4795AC url(https://servicos.spc.org.br/spc/images/fundo_subtitulo.jpg) repeat-x;
+	color:#204960;
+	height:30px;
+	font-weight:bold;
+	width:70%; /* 735px */
+	vertical-align:inherit;
+}
+.panel_sub a{
+	text-decoration:none;
+	color:#204960;
+}
+.panel3 {
+	text-align:left;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	width:33%;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+.td_sub_titulo {
+	text-align:center;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	width:80%;
+	height:30px;
+	font-weight:bold;
+}
+.panel4 {
+	text-align:left;
+	padding:.1em;
+	background:#4997AD;
+	color:#FFF;
+	width:25%;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+.panel4_result {
+	text-align:center;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	width:auto;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+.panel6_result {
+	text-align:center;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	width:20%;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+.panel6_result_menor {
+	text-align:center;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	width:1%;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+
+.panel6_result_livre {
+	text-align:center;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	width:0%;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+
+.panel6_result_banco {
+	text-align:center;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	width:40%;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+
+.panel6_result_tam_a_det {
+	text-align:center;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+
+
+.panel_result {
+	text-align:center;
+	padding:.1em;
+	background:#4997AD;
+	color:#FFF;
+	width:25%;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+}
+.txt_panel3 {
+	clear:both;
+	text-align:right;
+	font-weight:bold;
+}
+.box_meio{
+	width: auto;
+	border:0px;
+	background:#328aa4;
+	width:auto;
+	text-align:left;
+}
+.box_dir {
+	width: auto;
+	border:0px;
+	width:auto;
+	text-align:left;
+}
+.panel_direito{
+	text-align:left;
+	border:1px solid #F2F6F7;
+	background:#4795AC url(https://servicos.spc.org.br/spc/images/fundo_titulo.jpg) repeat-x;
+	color:#fff;
+	height:30px;
+	font-weight:bold;
+	width: auto;
+	border:0px;
+	vertical-align:middle;
+	margin:0 auto;
+	padding:0px;
+}
+.ico_panel_direito {
+	text-align:center;
+	border:1px solid #F2F6F7;
+	background:#4795AC url(https://servicos.spc.org.br/spc/images/fundo_titulo.jpg) repeat-x;
+	color:#fff;
+	height:30px;
+	font-weight:bold;
+	word-spacing:10px;
+	width: 17%;
+	vertical-align:middle;
+}
+.ico_panel_direito2 {
+	text-align:center;
+	border:1px solid #F2F6F7;
+	background:#4795AC url(https://servicos.spc.org.br/spc/images/fundo_titulo.jpg) repeat-x;
+	color:#fff;
+	height:30px;
+	font-weight:bold;
+	word-spacing:10px;
+	width: 25%;
+	vertical-align:middle;
+}
+
+.td_header{
+	position:absolute;
+	width:400px;
+	margin-left:400;
+	margin-top:-4px;
+	*margin-left:200;
+	*margin-top:-6px;
+
+	*padding-bottom: 1px;
+	*padding-left:10px;
+	*padding-right:1px;
+	*padding-top:0px;
+}
+.td_header_titulo{
+	background:#204960; 
+	border:0px;
+	color:#F5D319;
+	font-weight:bold;
+	text-align:right;
+}
+.td_header_txt{
+	color:#FFFFFF;
+}
+
+#divProdutos, #divDispositivo, #divAlinea, #tabelaGrid{
+	width: 735px;
+	border: 0px;
+}
+.td_geral{
+	background:transparent;
+	border: 0px;
+	margin:0 auto;
+}
+.td_foto {
+	text-align:center;
+	padding:0em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3;
+	width:auto;
+	height:auto; 
+}
+.td_form {
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3; 
+	width: auto;
+}
+.td_form_red {
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3; 
+	width: auto;
+	color:#FF0000;
+}
+.td3 {
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3; 
+	padding:.1em;
+}
+.td4 {
+	text-align:center;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3;
+	height:30px; 
+}
+.td_mes {
+	text-align:center;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#d9e8ec;
+	height:30px;
+	width:10%; 
+}
+.td_grid_mes {
+	text-align:center;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3;
+	height:30px;
+	width:10%; 
+}
+
+.td_dark, .td_dark_maior{
+	width:180px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_dark_result {
+	width:180px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark_result2{
+	clear:both;
+	width:19%;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark_result3 {
+	width:200px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark_result4 {
+	width:200px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark_result_seg{
+	clear:both;
+	width:35%;
+	height:30px;
+	text-align:right;
+	font-size:10px;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:5px;
+	border:1px solid #F2F6F7;
+}
+.td_dark_result_outro{
+	clear:both;
+	width:19%;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark_2colunas{
+	width:50%;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark_2colunas_menor{
+	width:25%;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F2F2;
+	font-size:11px;
+}
+.td_2colunas{
+	width:50%;
+	background:#eaf1f3; 
+	text-align:left;
+	height:30px;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark_2colunas_clean {
+	width:50%;
+	height:30px;
+	text-align:right;
+	background-color:#F2F6F7;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_2colunas_clean {
+	width:50%;
+	background:#F2F6F7; 
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_titulo{
+	background-image:url(https://servicos.spc.org.br/spc/images/fundo_titulo.gif) repeat-x;
+	font-weight:bold;
+	height:30px;
+	background-color:#F2F6F7;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_titulo_ico{
+	background:#80a432 url(https://servicos.spc.org.br/spc/images/tr_back_title.jpg) repeat-x;
+	width:10px;
+	height: 26px;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_box_result {
+	background-color:#D9E8EC;
+	width: auto;
+	text-align:center;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_box_result2 {
+	background-color:#EAF1F3;
+	width: 10%;
+	text-align:center;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_box{
+	background-color:#cfe5ec;
+	width: auto;
+	text-align:center;
+}
+.td_box_txt{
+	background-color:#eaf1f3;
+	width: auto;
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	height:30px;
+}
+a.txt_result:link{
+	text-decoration:none;
+	color:#333333;
+	font-size:11px;
+}
+a.txt_result:hover{
+	text-decoration:underline;
+	color:#3289A4;
+	font-size:11px;
+}
+.input_cc{
+	background-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d4e1e4;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d4e1e4;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d4e1e4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #d4e1e4;
+	color: #333333;
+	font-family: Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	height:17px;
+	width:70px;
+	vertical-align:middle;
+}
+.input_dgt{
+	background-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d4e1e4;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d4e1e4;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d4e1e4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #d4e1e4;
+	color: #333333;
+	font-family: Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	height:17px;
+	width:20px;
+	vertical-align:middle;
+}
+.input4{
+	background-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d4e1e4;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d4e1e4;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d4e1e4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #d4e1e4;
+	color: #333333;
+	font-family: Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	height:17px;
+	width:150px;
+	vertical-align:middle;
+}
+.checkbox{
+	background-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d4e1e4;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d4e1e4;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d4e1e4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #d4e1e4;
+	color: #333333;
+	font-family: Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	height:17px;
+	width:15px;
+	vertical-align:middle;
+}
+input{
+	background-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d4e1e4;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d4e1e4;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d4e1e4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #d4e1e4;
+	color: #333333;
+	font-family: Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	/*width:180px;*/
+	height:20px;
+	_height:17px;
+	vertical-align:middle;
+	/*TEXT-TRANSFORM: uppercase;*/
+}
+
+.btn_enviar{
+	height: 30px;
+    padding-bottom:5px;
+	*padding-bottom:2px;
+	width:83px;
+	border:0px;
+	margin:0 0 0 0;
+	border:opx;
+	background-image: url(https://servicos.spc.org.br/spc/images/botao_p.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:0,6px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.btn_enviar_m{
+	height: 30px;
+    padding-bottom:5px;
+	*padding-bottom:2px;
+	width:104px;
+	border:0px;
+	margin:0 0 0 0;
+	border:opx;
+	background-image: url(https://servicos.spc.org.br/spc/images/botao_m.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:0,6px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.btn_enviar_g{
+	height: 30px;
+    padding-bottom:5px;
+	*padding-bottom:2px;
+	width:122px;
+	border:0px;
+	margin:0 0 0 0;
+	border:opx;
+	background-image: url(https://servicos.spc.org.br/spc/images/botao_g.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:0,6px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.btn_enviar_gg{
+	height: 30px;
+    padding-bottom:5px;
+	*padding-bottom:2px;
+	width:181px;
+	border:0px;
+	margin:0 0 0 0;
+	border:opx;
+	background-image: url(https://servicos.spc.org.br/spc/images/botao_gg.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:0,6px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.btn_enviar_eg{
+        height: 30px;
+        padding-bottom:5px;
+		*padding-bottom:2px;        
+        width:266px;
+        border:0px;
+        margin:0 0 0 0;
+        border:opx;
+        background-image: url(https://servicos.spc.org.br/spc/images/botao_eg.jpg);
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing:0,6px;
+        font-size:13px;
+        font-weight:bold;
+        color:#FFEF99;
+        vertical-align:middle;
+        cursor:pointer;
+}
+.btn_claro{
+	height: 25px;
+	width:87px;
+	border:0px;
+	margin:0;
+	border:opx;
+	background-image: url(https://servicos.spc.org.br/spc/images/btn_claro_hover.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:0,6px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.btn_claro_m{
+	height: 25px;
+	width:100px;
+	border:0px;
+	margin:0;
+	border:opx;
+	background-image: url(https://servicos.spc.org.br/spc/images/btn_claro_hover_m.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:0,6px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.btn_claro_g{
+	height: 25px;
+	width:120px;
+	border:0px;
+	margin:0;
+	border:opx;
+	background-image: url(https://servicos.spc.org.br/spc/images/btn_claro_hover_g.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:0,6px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.btn_claro_gg{
+	height: 25px;
+	width:180px;
+	border:0px;
+	margin:0;
+	border:opx;
+	background-image: url(https://servicos.spc.org.br/spc/images/btn_claro_hover_gg.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:0,6px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+}
+select {
+	background-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d4e1e4;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d4e1e4;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d4e1e4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #d4e1e4;
+	color: #333333;
+	font-family: Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	height:20px;
+	_height:22px;
+	width:auto;
+	vertical-align:middle;
+}
+
+textarea {
+	background-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d4e1e4;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d4e1e4;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d4e1e4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #d4e1e4;
+	color: #333333;
+	font-family: Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	height:auto;
+	width:auto;
+	vertical-align:middle;
+	/*TEXT-TRANSFORM: uppercase;*/
+}
+.info, .success, .warning, .warning_pb, .error, .validation, .wait {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+	font-weight:bold;
+}
+.wait {
+    color: #9F6000;
+    background-color: #FEEFB3;
+	background-image:url(https://servicos.spc.org.br/spc/images/wait.gif);
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+	background-image:url(https://servicos.spc.org.br/spc/images/icon/info.jpg);
+    background-position: 10px 6px;
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+	background-image:url(https://servicos.spc.org.br/spc/images/icon/success.jpg);
+}
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+	background-image:url(https://servicos.spc.org.br/spc/images/icon/warning.jpg);
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+	background-image:url(https://servicos.spc.org.br/spc/images/icon/error.jpg);
+}
+.warning_pb {
+    color: #8f8f8f;
+    background-color: #dfdfdf;
+	background-image:url(https://servicos.spc.org.br/spc/images/icon/warning_pb.jpg);
+}
+.tabelaGrid, #gridCheckBox , .dataGrid, .panelGrid {	
+	width: 100%;	
+	margin:0 auto;
+	padding:0px;
+	text-align:left; /* "remedio" para o hack do IE */
+	border-collapse: collapse;
+	margin: 0em 0;
+
+}
+.td4_center {
+	text-align:center;
+	padding:.1em;
+	background:#eaf1f3;
+	height:30px; 
+	border:1px solid #F2F6F7;
+	width: auto;
+
+
+}
+
+
+.td4_center_tam_a_det {
+	text-align:center;
+	padding:.1em;
+	background:#eaf1f3;
+	height:30px; 
+	border:1px solid #F2F6F7;
+
+}
+
+
+.td4_left {
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3;
+	height:30px; 
+	border:1px solid #F2F6F7;
+}
+
+.td4_right {
+	text-align:right;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3;
+	height:30px; 
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td4_center a, .td4_left a, .td4_right a {
+	text-decoration: none;
+	color:#333;
+}
+.td4_center a:hover, .td4_left a:hover, .td4_right a:hover {
+	text-decoration: underline;
+	color:#333;
+}
+
+.td_dark6colunas{
+	width:75px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark6colunas_red{
+       width:75px;
+       height:30px;
+       text-align:right;
+       background-color:#d9e8ec;
+       color:#FF0000;
+       padding:.1em;
+       border:1px solid #F2F6F7;
+}
+.td_dark_filter_label{
+	width:160px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_dark_filter{
+	width:565px;
+	height:30px;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_dark6colunas_pj{
+	width:135px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_dark6colunas_reduzido{
+	width:115px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_dark_dia_acesso1{
+	width:20px;
+	height:30px;
+	text-align:left;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_dark_dia_acesso2{
+	width:70px;
+	height:30px;
+	text-align:left;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_dark_dia_acesso3{
+	width:450px;
+	height:30px;
+	text-align:left;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_box_txt_acesso {
+	background-color:#eaf1f3;
+	width:80px;
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	height:30px;
+}
+
+/* CSS especifico para o popup para a pesquisa de associado por nome */
+#tabelaGridPopAssociado, #tabelaGridPopAssociado1, #dataGridPopAssociado, #dataGridFiliaisAssociado, #gridLayoutFiliaisAssociado {	
+	width: 570px;	
+	margin:0 auto;			
+	text-align:left; /* "remedio" para o hack do IE */
+}
+/* CSS especifico para o popup para a pesquisa de entidade por nome */
+#tabelaGridPopEntidade, #tabelaGridPopEntidade1, #dataGridPopEntidade {	
+	width: 670px;	
+	margin:0 auto;			
+	text-align:left; /* "remedio" para o hack do IE */
+}
+#tabelaGridPopPFFlatten{	
+	width: 500px;	
+	margin:0 auto;			
+	text-align:left; /* "remedio" para o hack do IE */
+	vertical-align:middle;
+}
+.divComponentePFendereco{
+	height:30px;
+	text-align:left;
+	color:#333;
+}
+.divComponentePFendereco2col{
+	height:30px;
+	width:250px;
+	float:left;
+	text-align:left;
+	color:#333;
+	 
+}
+.divComponentePJendereco{
+	height:22px;
+	text-align:left;
+	color:#333;
+}
+.divComponentePJendereco2col{
+	height:22px;
+	width:250px;
+	float:left;
+	text-align:left;
+	color:#333;
+}
+#tabelaGridPopPJFlatten{	
+	width: 500px;	
+	margin:0 auto;			
+	text-align:left; /* "remedio" para o hack do IE */
+	vertical-align:middle;
+}
+.td_dark_rf_stg{
+	width:160px;
+	height:30px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+
+}
+.hr {
+	height:30px;
+    border: 1px solid;
+	border-color:#FFFFFF;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-style:none;
+    background:url(https://servicos.spc.org.br/spc/images/bodybg3.jpg);
+    background-repeat: repeat;
+}
+.hr_grid {
+	height:12px;
+    border: 1px solid;
+	border-color:#edeee2;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-style:none;
+    background-repeat: repeat;
+	background-color:#edeee2;
+}
+
+#waitSign {
+	background: url(https://servicos.spc.org.br/spc/images/wait.gif) no-repeat scroll center  ;
+	z-index: 99999;
+	height:100%;
+	position: fixed;	
+	width:100%;
+	display: none;
+	overflow: visible;
+}
+#render {
+	position:relative;
+}
+#renderWait {
+	background:#000000 url(https://servicos.spc.org.br/spc/images/wait.gif) no-repeat scroll center center;
+	opacity:0.2;
+	position:absolute;
+	width: 735px;
+	height: 100%;
+	display:none;
+}
+td.gridConsulta {
+	text-align:center;
+	background:#eaf1f3;
+	height: 30px;	
+	border:1px solid #F2F6F7;
+	width:auto;
+}
+.panel_resumo_consulta {
+	text-align:center;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#4795AC url(https://servicos.spc.org.br/spc/images/fundo_titulo.jpg) repeat-x;
+	color:#fff;
+	height:26px;
+	font-weight:bold;
+	vertical-align:inherit;
+}
+td.iconeResumoConsulta {
+	width:10px;
+	text-align:center;
+	background-color:#d9e8ec;
+	color:#333;
+}
+.fieldReadOnly {
+	background-color: #eaf1f3;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #eaf1f3;
+	color: #333;
+
+}
+/* tablecloth styles */
+
+tr.even td{
+background:#e5f1f4;
+}
+tr.odd td{
+background:#f8fbfc;
+}
+
+th.over, tr.even th.over, tr.odd th.over{
+background:#4a98af;
+}
+th.down, tr.even th.down, tr.odd th.down{
+background:#bce774;
+}
+th.selected, tr.even th.selected, tr.odd th.selected{}
+
+td.over, tr.even td.over, tr.odd td.over{
+background:#ecfbd4;
+}
+td.down, tr.even td.down, tr.odd td.down{
+background:#bce774;color:#fff;
+}
+td.selected, tr.even td.selected, tr.odd td.selected{
+background:#bce774;
+color:#555;
+}
+
+/* use this if you want to apply different styleing to empty table cells*/
+td.empty, tr.odd td.empty, tr.even td.empty{
+background:#fff;
+}
+
+/* Usado para nao desalinhar os panels criados manualmente */
+.panelLivre{
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#4795AC url(https://servicos.spc.org.br/spc/images/fundo_titulo.jpg) repeat-x;
+	color:#fff;
+	height:30px;
+	font-weight:bold;
+	vertical-align:inherit;
+}
+
+.scorebar {
+	background-image: url(https://servicos.spc.org.br/spc/images/bg_strength_gradient.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	position:absolute;
+	width: 100px;
+	z-index: 0;
+}
+#scorebarBorder {
+	background: #333;
+	border: 1px #000 solid;
+	height: 13px;
+	margin-bottom: 2px;
+	width: 100px;
+}
+.score {
+	color: #000;
+	font-size: 85%;
+	position:absolute;
+	text-align: center;
+	width: 100px;
+	z-index: 10;
+	font-weight: bold;
+}
+.ancora_resultado:link, .ancora_resultado:visited{
+	text-decoration:none;
+	color:#333333;
+}
+.ancora_resultado:hover{
+	text-decoration: underline;
+	color:#333333;
+}
+.font_cinza{
+	color:#C8C8C8;
+}
+.td4_obs {
+	text-align:center;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3;
+	height:30px;
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	width:700px; 
+}
+
+.panel6_result_titulo {
+	text-align:center;
+	padding:.1em;
+	background:#D9E8EC;
+	color:#333;
+	width:20%;
+	height:60px;
+	font-weight:bold;
+	vertical-align:inherit;
+	border:1px solid #F2F6F7;
+	line-height:25px;
+}
+
+.td_space{
+	width:520px;
+	background:#eaf1f3; 
+	text-align:left;
+	height:30px;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.body_iframe {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-color:#F2F6F7;
+	text-align:center; /* hack para o IE */	
+	margin:-3;
+	padding:-1;
+	/*behavior:url("/spc/script/csshover.htc");*/ /* hack para o hover funcionar no IE6 */
+}
+
+.td_iframe_dark {
+	width:180px;
+	height:37px;
+	text-align:right;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+
+.td_info {
+    font-weight:bold;
+    color: #00529B;
+    background-color: #BDE5F8;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	vertical-align: top;
+}
+.div_banner_spcbusca{
+   position=relative; 
+   valign=bottom; 
+   width:721px; 
+   border: 1px solid; 
+   margin: 5px -51px -27px; 
+   padding:5px 2px 5px 10px; 
+   background-color: #FFF; 
+   text-align:center; 
+   
+   *width:735px; 
+   *border: 1px solid; 
+   *margin: 5px -51px 1px; 
+   *padding:5px 2px 5px 10px;
+}
+.table_spcbusca_esq{
+   text-align: right; 
+   color: #00529B; 
+   width:65%; 
+   font-weight:bold; 
+   text-transform:uppercase;
+
+}
+.table_spcbusca_dir{
+   text-align: left; 
+   color: #00529B; 
+   width:35%; 
+   padding-left:5px;
+}
+
+/* CERTIFICADO DIGITAL */
+.td_cd_foto{
+	width:160px;
+	height:120px;
+	text-align: center;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+}
+.td_cd_txt_titulo {
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3; 
+	width: auto;
+}
+.td_cd_txt_desc {
+	text-align: justify;
+	padding:.1em;
+	/*border:1px solid #F2F6F7;*/
+	background:#eaf1f3; 
+	width: auto;
+	padding-top: 10px;
+	padding-left: 6px;
+	padding-right: 10px;
+}
+.td_cd_txt_link a{
+	text-align:left;
+	padding:.1em;
+	background:#eaf1f3; 
+	width: auto;
+	
+	text-decoration:none;
+	color:#204960;
+
+}
+.td_cd_txt_link a:hover{
+	text-align:left;
+	padding:.1em;
+	background:#eaf1f3; 
+	width: auto;
+
+	text-decoration:underline;
+	color:#204960;
+}
+.td_cd_foto2{
+	width:180px;
+	height:30px;
+	text-align: center;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+}
+.td_cd_botao_compra{
+	width:180px;
+	height:30px;
+	text-align: center;
+	background-color:#d9e8ec;
+	color:#333;
+	padding:.1em;
+	padding-bottom:3px;
+	padding-top:3px;
+}
+.cd_txt_compra{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#204960;
+    font-weight:bold;
+}
+.cd_valor_compra{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#EF003F;
+    font-weight:bold;
+}
+
+.errorInfo {
+    border: 1px solid;
+    margin: 1px 0px;
+    padding:2px 1px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+	font-weight:bold;
+    color: #D8000C;
+    background-color: #FFBABA;
+	background-image:url(https://servicos.spc.org.br/spc/images/icon/cross.png);
+}
+.successInfo {
+    border: 1px solid;
+    margin: 1px 0px;
+    padding:2px 1px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+	font-weight:bold;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+	background-image:url(https://servicos.spc.org.br/spc/images/icon/tick.png);
+}
+.warningInfo {
+    border: 1px solid;
+    margin: 1px 0px;
+    padding:2px 1px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+	font-weight:bold;
+    color: #9F6000;
+    background-color: #FEEFB3;
+	background-image:url(https://servicos.spc.org.br/spc/images/icon/exclamation_frame.png);
+}
+.selectMultiple {
+	height: 100px;
+	width: 300px;
+}
+.td_form_red_bold {
+	text-align:left;
+	padding:.1em;
+	border:1px solid #F2F6F7;
+	background:#eaf1f3; 
+	width: auto;
+	color:#FF0000;
+	font-weight:bold;
+	text-transform:uppercase;
+}
