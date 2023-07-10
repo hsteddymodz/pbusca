@@ -34,7 +34,7 @@ const Grupos = [
 
 const apiId = "28023471"; //https://my.telegram.org/auth
 const apiHash = "1124a8c659bbc406af83f393144f10e8"; //https://my.telegram.org/auth
-const stringSession = new StringSession("1BQANOTEuMTA4LjU2LjExMAG7ZOG3SIJ7z82yRPwa4Ne1oUktFAMwPmiBcQZJj6/NT6NyVTfkuzX4Ok87NU5hvcPdiNn1hDruQNb8HwlsIZ5aJYFw1WqrOMMRxucEIQiB0lrYHwOyCarZYYfC9ZILbKQCrsMSdFQXVaP0Sd2ztV/fpm/alLlwJXnti0bIiRSQSLVRe8yApJsngF2oZq/1FzvP1kmjqTBws3tfJxxK6biB4LKpFfGn8wLKWNceGBoqNNj3+CYf9LH3JDmeKKnN0VsUuRrzAWCSydxAAsd0J+U4L/YRhiMNJ4vuUGsfoDvs6F1OmuPYpCi9N5kOyBLImoaP5qsG3bMFFrZ3NDljDI71fQ==")
+const stringSession = new StringSession("1BQANOTEuMTA4LjU2LjExMAG7pQEbv/orbwvJFKY27nsU3pPpAckZH1HbiVOqi56dWbawcqkOackksK0NzDsUlBFFPoSjiDt1xKaRl+/4CxXRFQRuWvnkQ3+OPYkmZOifcyBBMSE1qvEGnwQLSfJWSCc8sx2a2dfzhR7jmRg6BYNv5HACSN2rQCcM+PXdytv54zfy+Ax7kIWoPBDcqpEA//HD4AXHleDA0wJWo3di3+Fofi0YfyWxNPvwmCy3XZ21LE582xW+vScnXsJ1hpMmFgzPT+egPU9PQToCdpv1HcgaKV3wrIQq7+y2SN0KXmwv5iLayWFOANGzS9a9qWNIYWHZmh+3/ioCStsNIDtGu1of8Q==")
 
 //FIM
 
