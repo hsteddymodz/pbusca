@@ -181,8 +181,7 @@ if (!user) { return res.status(403).json({error: '➭ Chave da API inválida ou 
 					str = str.replace(/\•/gi, "");
 					str = str.replace(/\n\n\n/gi, "\n\n");
 					str = str.replace(/• USUÁRIO: teddy\n\n/gi, "");
-					str = str.replace(/〽️ Canal de Novidades: @NewsArcadianRobot
-🤖 Robô Consultor Ilimitado: @ArcadianRobot/gi, "");
+					str = str.replace(/〽️ Canal de Novidades: @NewsArcadianRobot\n🤖 Robô Consultor Ilimitado: @ArcadianRobot/gi, "");
 					
 					str = str.replace(/Alternativo via Navegador: www.buscadados.online/gi, "");
 					str = str.replace(/🔛 BY: @Skynet02Robot/gi, "");
