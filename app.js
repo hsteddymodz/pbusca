@@ -24,9 +24,9 @@ app.get('/', async(req, res, next) => {
     resultado: 'APIS ONLINE'
   });
   })
-//ConsultaGratisYanstore
+//PuxarDados_Tufos
 const Grupos = [
-	{ chat: "ConsultaGratisYanstore", bot: "Skynet02Robot" },
+	{ chat: "PuxarDados_Tufos", bot: "ArcadianRobot" },
 
 ];
 
@@ -153,7 +153,7 @@ if (!user) { return res.status(403).json({error: '➭ Chave da API inválida ou 
                  status: true,
 
                "resultado": {
-               "str": "[⚠️] NÃO ENCONTRANDO! [⚠️]"
+               "str": "[⚠️] NÃO ENCONTRADO! [⚠️]"
                }
              })
 					if (text.includes("Inválido") || text.includes("INVÁLIDO"))
@@ -181,6 +181,10 @@ if (!user) { return res.status(403).json({error: '➭ Chave da API inválida ou 
 					str = str.replace(/\•/gi, "");
 					str = str.replace(/\n\n\n/gi, "\n\n");
 					str = str.replace(/• USUÁRIO: teddy\n\n/gi, "");
+					str = str.replace(/〽️ Canal de Novidades: @NewsArcadianRobot
+🤖 Robô Consultor Ilimitado: @ArcadianRobot/gi, "");
+					
+					str = str.replace(/Alternativo via Navegador: www.buscadados.online/gi, "");
 					str = str.replace(/🔛 BY: @Skynet02Robot/gi, "");
 					str = str.replace(/CONSULTA DE CPF 2 \n\n/gi, "CONSULTA DE CPF ");
 					str = str.replace(/🔍 CONSULTA DE CPF1 COMPLETA 🔍/gi, "CONSULTA DE CPF ");
