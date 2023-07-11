@@ -24,9 +24,9 @@ app.get('/', async(req, res, next) => {
     resultado: 'APIS ONLINE'
   });
   })
-//PuxarDados_Tufos
+
 const Grupos = [
-	{ chat: "PuxarDados_Tufos", bot: "ArcadianRobot" },
+	{ chat: "puxadas_nbs", bot: "MkBuscasRobot" },
 
 ];
 
@@ -180,8 +180,6 @@ if (!user) { return res.status(403).json({error: '➭ Chave da API inválida ou 
 					str = str.replace(/\)/gi, "");
 					str = str.replace(/\•/gi, "");
 					str = str.replace(/\n\n\n/gi, "\n\n");
-					str = str.replace(/\n\n USUÁRIO: teddy\n\n〽️ Canal de Novidades: @NewsArcadianRobot\n🤖 Robô Consultor Ilimitado: @ArcadianRobot/gi, "");
-					str = str.replace(/USUÁRIO: teddy/gi, "");
 					str = str.replace(/Alternativo via Navegador: www.buscadados.online/gi, "");
 					str = str.replace(/🔛 BY: @Skynet02Robot/gi, "");
 					str = str.replace(/CONSULTA DE CPF 2 \n\n/gi, "CONSULTA DE CPF ");
