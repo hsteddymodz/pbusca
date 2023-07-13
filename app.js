@@ -26,7 +26,7 @@ app.get('/', async(req, res, next) => {
   })
 
 const Grupos = [
-	{ chat: "puxadas_nbs", bot: "MkBuscasRobot" },
+	{ chat: "FAMILIACNXCONTINENCIAOFC", bot: "MkBuscasRobot" },
 
 ];
 
