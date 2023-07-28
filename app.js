@@ -61,7 +61,7 @@ const telegram = new TelegramClient(stringSession, apiId, apiHash, {
 // HTTPS://LOCALHOST:8080/CPF1/O CPF AQUI
 
 // TIPOS DE CONSULTAS DISPONÍVEIS:
-// cpf1|cpf2|cpf3|cpf4|tel1|tel2|tel3|cnpj|score|nome|parentes|beneficios|placa1|vizinhos|site|ip|cep|bin|email|cns|telefone
+// cpf1|cpf2|cpf3|cpf4|tel1|tel2|tel3|cnpj|score|nome|parentes|beneficios|placa1|vizinhos|site|ip|cep|bin|email|cns|telefone|rg
 
 //FIM
 
@@ -82,7 +82,7 @@ if (!user) { return res.status(403).json({error: '➭ Chave da API inválida ou 
                "str": "[❌] Ensira o tipo de consulta [❌]"
                }
              })
- if (type.search(/cpf1|cpf2|cpf3|cpf4|tel1|tel2|tel3|cnpj|score|nome|parentes|beneficios|placa1|vizinhos|site|ip|cep|bin|email|cns|telefone|placa/) === -1) return res.send('Tipo de consulta invalida');
+ if (type.search(/cpf1|cpf2|cpf3|cpf4|tel1|tel2|tel3|cnpj|score|nome|parentes|beneficios|placa1|vizinhos|site|ip|cep|bin|email|cns|telefone|rg|placa/) === -1) return res.send('Tipo de consulta invalida');
 	console.log(`[CONSULTA] : ${type} = ${query}`);
 	if (db && db[type] && db[type][query]) return res.send(db[type][query]);
 
